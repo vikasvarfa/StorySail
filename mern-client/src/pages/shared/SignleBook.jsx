@@ -7,7 +7,7 @@ import { MdAnnouncement } from 'react-icons/md';
 
 const SignleBook = () => {
     const data = useLoaderData();
-    const { bookTitle } = data;
+    const { imageURL,bookTitle } = data;
     console.log(data)
     return (
         <div className='mt-20'>
@@ -26,9 +26,7 @@ const SignleBook = () => {
             </Banner>
 
             {/* book details */}
-            <div>
-                
-            </div>
+           
         </div>
     )
 }

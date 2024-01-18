@@ -55,7 +55,7 @@ const UploadBook = () => {
       bookPDFUrl,
     };
     // console.log(dataObj)
-    fetch("http://localhost:5000/upload-book", {
+    fetch("https://storysail-backend.onrender.com/upload-book", {
       method: "POST",
 
       headers: {

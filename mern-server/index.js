@@ -20,7 +20,7 @@ require('dotenv').config();
 
 
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
-// const uri = "mongodb+srv://mern-book-store:Sa0BVhlzv8zUYPKG@cluster0.3oudxqk.mongodb.net/?retryWrites=true&w=majority";
+
 
 const uri = process.env.MONGODB_URI;
 
