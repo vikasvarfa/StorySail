@@ -4,6 +4,9 @@ const port = process.env.PORT || 5000
 const cors = require('cors')
 
 
+
+
+
 // Sa0BVhlzv8zUYPKG
 
 // middlewares 
@@ -15,10 +18,11 @@ app.get('/', (req, res) => {
 })
 
 // mongodb connection
-
+require('dotenv').config();
 
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
-const uri = "mongodb+srv://mern-book-store:Sa0BVhlzv8zUYPKG@cluster0.3oudxqk.mongodb.net/?retryWrites=true&w=majority";
+// const uri = "mongodb+srv://mern-book-store:Sa0BVhlzv8zUYPKG@cluster0.3oudxqk.mongodb.net/?retryWrites=true&w=majority";
+ const uri=process.env.key;
 
  
 
