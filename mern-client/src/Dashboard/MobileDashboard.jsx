@@ -63,7 +63,7 @@ const MobileDashboard = () => {
         <Navbar.Link href="/admin/dashboard/manage">
           Manage Books
         </Navbar.Link>
-        <Navbar.Link href="logout">
+        <Navbar.Link href="/logout">
           Signout
         </Navbar.Link>
       </Navbar.Collapse>
